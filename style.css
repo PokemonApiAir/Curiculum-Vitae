@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#kanan hr{
+    height: 2px;
+    background-color: black;
+    color: black;
+}
+
+#kiri{
+    background-color: navy;
+}
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.sub-judul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 85%;
+    height: 80px;
+    color: white;
+    padding: 2% 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    border-radius: 50% 50%;
+}
+/* Justify Content */
+.justify-center{
+    justify-content: center;
+}
+.justify-start{
+    justify-content: start;
+}
+.justify-end{
+    justify-content: end;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.justify-between{
+    justify-content: space-between;
+}
+/* Align Items */
+.align-center{
+    align-items: center;
+}
+.align-start{
+    align-items: flex-start;
+}
+.align-end{
+    align-items: flex-end;
+}
